@@ -1,0 +1,2 @@
+# hypr
+configurações do hyperland
