@@ -329,7 +329,7 @@ hl.bind("XF86AudioPrev",  hl.dsp.exec_cmd("playerctl previous"),   { locked = tr
 hl.bind(mainMod .. " + N", hl.dsp.exec_cmd("swaync-client -t"), { description = "Abre painel de notificações" })
 
 -- lock screen
-hl.bind(mainMod .. " + L", hl.dsp.exec_cmd("pidof hyprlock || hyprlock"), { description = "Bloqueia tela" })
+hl.bind(mainMod .. " + SHIFT + L", hl.dsp.exec_cmd("pidof hyprlock || hyprlock"), { description = "Bloqueia tela" })
 --------------------------------
 ---- WINDOWS AND WORKSPACES ----
 --------------------------------
